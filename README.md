@@ -52,9 +52,9 @@ The chatbot analyzes the user's question using NLTK (Natural Language Toolkit) t
 - TF-IDF and Context Comparison:
 The chatbot uses TF-IDF on a pre-defined text corpus (e.g., fruit.txt) to calculate the importance of words in the user's question compared to the text corpus. This helps in understanding the context and extracting relevant information.
 
-###
+#*#*#*
 A version of this app is deployed on an ec2 instance at ip: 44.202.134.5 but the results can be unpredictable. In my experiments, I was able to reliably connect to this instance on a phone but not using my PC.
-###
+#*#*#*
 - Matching Context and Generating Response:
 By comparing the TF-IDF vectors of the user's question with the pre-defined text corpus, the chatbot identifies the most relevant information and generates a response that provides a brief explanation of how intent recognition and response generation work.
 
