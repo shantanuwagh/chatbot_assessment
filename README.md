@@ -3,17 +3,17 @@ This is a simple chat application that allows users to interact with a chatbot a
 
 ## Usage
 
-1. Install the required packages by running the following command:
+1. Make sure you have Python (version 3.11+) and pip installed on your system.
+
+2. Install the required packages by running the following command:
    
    ```bash
    pip install -r requirements.txt
 
-2. Make sure you have Python (version 3.11) and pip installed on your system.
-
 3. Run the Flask backend:
 
     ```bash
-    python3 api.py
+    python api.py
 
 4. Open the url: localhost:5000 in a web browser to access the chat application.
 
