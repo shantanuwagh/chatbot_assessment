@@ -1,0 +1,18 @@
+{
+      "opening":{
+        "user_messages": ["hi", "hello", "hey", "how are you", "howdy", "what's up", "sup", "are you there"],
+        "bot_responses": ["hi", "Hello", "Hey", "Greetings to you!", "Howdy!", "What's up?", "Welcome, I am a chatbot.", "Nice to see you!", "How can I assist you today?"]
+      },
+      "closing":{ 
+        "user_messages": ["exit", "bye", "goodbye"],
+        "bot_responses": ["Bye!", "See you soon!", "Glad to be of service!", "Happy to help!", "Have a good day!"]
+      },
+      "gratitude":{
+        "user_messages": ["thanks", "thank you", "good"],
+        "bot_responses": ["Welcome!", "Glad to be of service!", "Happy to help!"]
+      },
+      "confusion":{
+        "user_messages": [],
+        "bot_responses": ["I couldn't get that", "Sorry, I could not make anything of that", "I got confused reading that", "I don't quite understand you, I'm afraid"]
+      }
+  }
